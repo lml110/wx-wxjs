@@ -7,7 +7,7 @@
 
 # 使用方法
 
-** 授权失败后重新授权 （authFail）**
+- 授权失败后重新授权 （authFail）**
 
 ```graph
 	const scope_authInfo = 'scope.' + authInfo;
@@ -58,7 +58,7 @@
 	};
 ```
 
-** 获取用户信息 （getUserInfo）**
+- 获取用户信息 （getUserInfo）**
 
 ```graph
 	const auth_sucess = isSucess => {
@@ -88,7 +88,7 @@
 	return _AuthPress('userInfo', auth_sucess, false); //授权成功后执行
 ```
 
-** 微信Promise使用 （wxPromisify）**
+- 微信Promise使用 （wxPromisify）**
 
 ```graph
 	return (obj = {}) => {
@@ -106,7 +106,7 @@
 	};
 ```
 
-** 请求处理 （_request）**
+- 请求处理 （_request）**
 
 ```graph
 	let requeUrl = getUrl(route);
@@ -251,7 +251,7 @@
 	});
 ```
 
-** 缓存机制 （session）**
+- 缓存机制 （session）**
 
 ```graph
 	const session = {
@@ -278,7 +278,7 @@
 	};
 ```
 
-** 登录机制（ss-tok转换） **
+- 登录机制（ss-tok转换） **
 
 ```graph
 	function mockSessionCookies(res) {
@@ -300,7 +300,7 @@
 	};
 ```
 
-** 下载文件 （downloadFile）**
+- 下载文件 （downloadFile）**
 
 ```graph
 	- 单文件下载
@@ -380,7 +380,7 @@
 	};
 ```
 
-** 上传图片 （_uploadImage）**
+- 上传图片 （_uploadImage）**
 
 ```graph
 	const _chooseImage = (callback, cont = 1) => wx.chooseImage({
@@ -457,7 +457,7 @@
 	}, cont);
 ```
 
-** 分享配置 （_shareObj）**
+- 分享配置 （_shareObj）**
 
 ```graph
 	const _shareObj = (title = '',path = '',img = '',callback) => {
@@ -476,7 +476,7 @@
 	};
 ```
 
-** 默认提示框**
+- 默认提示框**
 
 ```graph
 	const showLoading = (title = "加载中", mask = true) => {
@@ -531,7 +531,7 @@
 ```
 
 
-** 微信支付 （_payment）**
+- 微信支付 （_payment）**
 ```graph
 	const _payment = (data = {} ,sucessFn,failFn) => wx.requestPayment({
 	    timeStamp: data.timeStamp,
