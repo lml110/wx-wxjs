@@ -3,7 +3,48 @@
 ## 介绍
 
 用于便捷方便使用
+RequestError,   //请求失败后执行 （参考）
+session,        //缓存设置
 
+getUrl,         //获取api完整地址
+_request,       //异步请求  
+_JsonFailfn,    //异常错误后执行
+
+initAuthLogin,  //登录获取bug （接口）
+
+/*可能抛弃*/
+GetSessionId,   //获取登录状态 
+auth_Fail,      //授权获取失败打开设置
+_AuthPress,     //设备获取授权
+GetUserInfo,    //获取用户信息
+_LoginPress,    //执行登录
+
+_showModalTip,  //内置提示对话框
+_showToast,     //内置信息提示框
+_navto,         //内置导航
+_shareObj,      //内置获取分享配置
+
+//兼容加载显示隐藏
+showLoading,
+hideLoading,
+
+/*上传下载 == 图片 || 视频 || 文字*/
+_uploadImage,   //上传图片
+_previewImage,  //预览图片
+_ciipData,      //复制剪切板
+
+_downloadFile,  //下载文件
+_saveImage,     //保存图片到相册
+_saveVideo,     //保存视频到相册
+_allSave,       //全部保存
+
+BMap_getPostion,    //百度定位
+_makePhoneCall,     //拨打电话
+
+_payment,   //微信支付
+
+/*新增*/
+getusers,   //获取用户信息（接口）
 
 # 使用方法
 
